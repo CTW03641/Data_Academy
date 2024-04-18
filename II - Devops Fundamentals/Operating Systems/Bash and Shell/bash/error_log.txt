@@ -1,0 +1,500 @@
+Apr 14 00:00:07 wesley-ThinkPad systemd[1]: logrotate.service: Succeeded.
+Apr 14 00:00:07 wesley-ThinkPad systemd[1]: Finished Rotate log files.
+Apr 14 00:00:07 wesley-ThinkPad systemd[1]: man-db.service: Succeeded.
+Apr 14 00:00:07 wesley-ThinkPad systemd[1]: Finished Daily man-db regeneration.
+Apr 14 00:00:40 wesley-ThinkPad fctsched[3143250]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:00:40 wesley-ThinkPad fctsched[3143251]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:00:40 wesley-ThinkPad fctsched[3143252]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:00:41 wesley-ThinkPad fctsched[3143254]: No token labeled "fct-ztna-token"
+Apr 14 00:00:42 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:00:42 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:00:42 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:01:41 wesley-ThinkPad fctsched[3144031]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:01:41 wesley-ThinkPad fctsched[3144032]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:01:41 wesley-ThinkPad fctsched[3144033]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:01:41 wesley-ThinkPad fctsched[3144035]: No token labeled "fct-ztna-token"
+Apr 14 00:01:44 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:01:44 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:01:44 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:02:41 wesley-ThinkPad fctsched[3144798]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:02:41 wesley-ThinkPad fctsched[3144799]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:02:41 wesley-ThinkPad fctsched[3144800]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:02:41 wesley-ThinkPad fctsched[3144802]: No token labeled "fct-ztna-token"
+Apr 14 00:02:45 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:02:45 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:02:45 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:03:41 wesley-ThinkPad fctsched[3145600]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:03:41 wesley-ThinkPad fctsched[3145601]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:03:41 wesley-ThinkPad fctsched[3145602]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:03:41 wesley-ThinkPad fctsched[3145604]: No token labeled "fct-ztna-token"
+Apr 14 00:04:41 wesley-ThinkPad fctsched[3145802]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:04:41 wesley-ThinkPad fctsched[3145803]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:04:41 wesley-ThinkPad fctsched[3145804]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:04:41 wesley-ThinkPad fctsched[3145806]: No token labeled "fct-ztna-token"
+Apr 14 00:04:48 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:04:48 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:04:48 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:05:41 wesley-ThinkPad fctsched[3146586]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:05:41 wesley-ThinkPad fctsched[3146587]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:05:41 wesley-ThinkPad fctsched[3146588]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:05:41 wesley-ThinkPad fctsched[3146590]: No token labeled "fct-ztna-token"
+Apr 14 00:05:50 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:05:50 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:05:50 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:06:41 wesley-ThinkPad fctsched[3147356]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:06:41 wesley-ThinkPad fctsched[3147357]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:06:41 wesley-ThinkPad fctsched[3147358]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:06:41 wesley-ThinkPad fctsched[3147360]: No token labeled "fct-ztna-token"
+Apr 14 00:07:42 wesley-ThinkPad fctsched[3148093]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:07:42 wesley-ThinkPad fctsched[3148094]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:07:42 wesley-ThinkPad fctsched[3148095]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:07:42 wesley-ThinkPad fctsched[3148097]: No token labeled "fct-ztna-token"
+Apr 14 00:08:42 wesley-ThinkPad fctsched[3148311]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:08:42 wesley-ThinkPad fctsched[3148312]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:08:42 wesley-ThinkPad fctsched[3148313]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:08:42 wesley-ThinkPad fctsched[3148315]: No token labeled "fct-ztna-token"
+Apr 14 00:08:54 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:08:54 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:08:54 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:09:42 wesley-ThinkPad fctsched[3149086]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:09:42 wesley-ThinkPad fctsched[3149087]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:09:42 wesley-ThinkPad fctsched[3149088]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:09:42 wesley-ThinkPad fctsched[3149090]: No token labeled "fct-ztna-token"
+Apr 14 00:09:56 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:09:56 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:09:56 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:10:42 wesley-ThinkPad fctsched[3149852]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:10:42 wesley-ThinkPad fctsched[3149853]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:10:42 wesley-ThinkPad fctsched[3149854]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:10:42 wesley-ThinkPad fctsched[3149856]: No token labeled "fct-ztna-token"
+Apr 14 00:10:57 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:10:57 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:10:57 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5312] dhcp4 (wlp9s0): option dhcp_lease_time      => '3600'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5312] dhcp4 (wlp9s0): option domain_name          => 'Home'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5312] dhcp4 (wlp9s0): option domain_name_servers  => '192.168.1.254'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5312] dhcp4 (wlp9s0): option expiry               => '1713053470'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5313] dhcp4 (wlp9s0): option ip_address           => '192.168.1.66'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5313] dhcp4 (wlp9s0): option requested_broadcast_address => '1'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5313] dhcp4 (wlp9s0): option requested_domain_name => '1'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5313] dhcp4 (wlp9s0): option requested_domain_name_servers => '1'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5313] dhcp4 (wlp9s0): option requested_domain_search => '1'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5313] dhcp4 (wlp9s0): option requested_host_name  => '1'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5313] dhcp4 (wlp9s0): option requested_interface_mtu => '1'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5314] dhcp4 (wlp9s0): option requested_ms_classless_static_routes => '1'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5314] dhcp4 (wlp9s0): option requested_nis_domain => '1'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5314] dhcp4 (wlp9s0): option requested_nis_servers => '1'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5314] dhcp4 (wlp9s0): option requested_ntp_servers => '1'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5314] dhcp4 (wlp9s0): option requested_rfc3442_classless_static_routes => '1'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5314] dhcp4 (wlp9s0): option requested_root_path  => '1'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5314] dhcp4 (wlp9s0): option requested_routers    => '1'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5314] dhcp4 (wlp9s0): option requested_static_routes => '1'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5315] dhcp4 (wlp9s0): option requested_subnet_mask => '1'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5315] dhcp4 (wlp9s0): option requested_time_offset => '1'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5315] dhcp4 (wlp9s0): option requested_wpad       => '1'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5315] dhcp4 (wlp9s0): option routers              => '192.168.1.254'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5315] dhcp4 (wlp9s0): option subnet_mask          => '255.255.255.0'
+Apr 14 00:11:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713049871.5315] dhcp4 (wlp9s0): state changed extended -> extended
+Apr 14 00:11:11 wesley-ThinkPad dbus-daemon[804]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=806 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 14 00:11:11 wesley-ThinkPad systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 14 00:11:11 wesley-ThinkPad dbus-daemon[804]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 14 00:11:11 wesley-ThinkPad systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 14 00:11:22 wesley-ThinkPad systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Apr 14 00:11:43 wesley-ThinkPad fctsched[3150652]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:11:43 wesley-ThinkPad fctsched[3150653]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:11:43 wesley-ThinkPad fctsched[3150654]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:11:43 wesley-ThinkPad fctsched[3150656]: No token labeled "fct-ztna-token"
+Apr 14 00:12:43 wesley-ThinkPad fctsched[3150862]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:12:43 wesley-ThinkPad fctsched[3150863]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:12:43 wesley-ThinkPad fctsched[3150864]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:12:43 wesley-ThinkPad fctsched[3150866]: No token labeled "fct-ztna-token"
+Apr 14 00:13:00 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:13:00 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:13:00 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:13:32 wesley-ThinkPad gnome-shell[4273]: st_widget_get_theme_node called on the widget [0x560ac9ece860 StWidget] which is not in the stage.
+Apr 14 00:13:34 wesley-ThinkPad rtkit-daemon[2104]: Supervising 14 threads of 2 processes of 2 users.
+Apr 14 00:13:34 wesley-ThinkPad rtkit-daemon[2104]: Successfully made thread 3151677 of process 3942 owned by '1000' RT at priority 5.
+Apr 14 00:13:34 wesley-ThinkPad rtkit-daemon[2104]: Supervising 15 threads of 2 processes of 2 users.
+Apr 14 00:13:43 wesley-ThinkPad fctsched[3151682]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:13:43 wesley-ThinkPad fctsched[3151683]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:13:43 wesley-ThinkPad fctsched[3151684]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:13:44 wesley-ThinkPad fctsched[3151686]: No token labeled "fct-ztna-token"
+Apr 14 00:14:02 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:14:02 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:14:02 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:14:44 wesley-ThinkPad fctsched[3152473]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:14:44 wesley-ThinkPad fctsched[3152474]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:14:44 wesley-ThinkPad fctsched[3152475]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:14:44 wesley-ThinkPad fctsched[3152477]: No token labeled "fct-ztna-token"
+Apr 14 00:15:03 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:15:03 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:15:04 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:15:44 wesley-ThinkPad fctsched[3153236]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:15:44 wesley-ThinkPad fctsched[3153237]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:15:44 wesley-ThinkPad fctsched[3153238]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:15:44 wesley-ThinkPad fctsched[3153240]: No token labeled "fct-ztna-token"
+Apr 14 00:16:05 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:16:05 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:16:05 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:16:44 wesley-ThinkPad fctsched[3154016]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:16:44 wesley-ThinkPad fctsched[3154017]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:16:44 wesley-ThinkPad fctsched[3154018]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:16:44 wesley-ThinkPad fctsched[3154020]: No token labeled "fct-ztna-token"
+Apr 14 00:17:01 wesley-ThinkPad CRON[3154031]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 14 00:17:44 wesley-ThinkPad fctsched[3154235]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:17:44 wesley-ThinkPad fctsched[3154236]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:17:44 wesley-ThinkPad fctsched[3154237]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:17:44 wesley-ThinkPad fctsched[3154239]: No token labeled "fct-ztna-token"
+Apr 14 00:18:08 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:18:08 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:18:08 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:18:44 wesley-ThinkPad fctsched[3155018]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:18:44 wesley-ThinkPad fctsched[3155019]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:18:44 wesley-ThinkPad fctsched[3155020]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:18:44 wesley-ThinkPad fctsched[3155022]: No token labeled "fct-ztna-token"
+Apr 14 00:19:10 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:19:10 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:19:10 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:19:44 wesley-ThinkPad fctsched[3155795]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:19:44 wesley-ThinkPad fctsched[3155796]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:19:44 wesley-ThinkPad fctsched[3155797]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:19:45 wesley-ThinkPad fctsched[3155799]: No token labeled "fct-ztna-token"
+Apr 14 00:20:05 wesley-ThinkPad systemd[1]: Starting Refresh fwupd metadata and update motd...
+Apr 14 00:20:05 wesley-ThinkPad fwupdmgr[3155812]: Updating lvfs
+Apr 14 00:20:05 wesley-ThinkPad fwupdmgr[3155812]: Downloading…: 0%
+Apr 14 00:20:05 wesley-ThinkPad fwupdmgr[3155812]: Idle…: 100%
+Apr 14 00:20:05 wesley-ThinkPad fwupdmgr[3155812]: Idle…: 100%
+Apr 14 00:20:05 wesley-ThinkPad fwupdmgr[3155812]: Successfully downloaded new metadata: 5 local devices supported
+Apr 14 00:20:05 wesley-ThinkPad systemd[1]: fwupd-refresh.service: Succeeded.
+Apr 14 00:20:05 wesley-ThinkPad systemd[1]: Finished Refresh fwupd metadata and update motd.
+Apr 14 00:20:11 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:20:11 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:20:12 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:20:45 wesley-ThinkPad fctsched[3156573]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:20:45 wesley-ThinkPad fctsched[3156574]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:20:45 wesley-ThinkPad fctsched[3156575]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:20:45 wesley-ThinkPad fctsched[3156577]: No token labeled "fct-ztna-token"
+Apr 14 00:21:45 wesley-ThinkPad fctsched[3156797]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:21:45 wesley-ThinkPad fctsched[3156798]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:21:45 wesley-ThinkPad fctsched[3156799]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:21:45 wesley-ThinkPad fctsched[3156801]: No token labeled "fct-ztna-token"
+Apr 14 00:22:14 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:22:14 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:22:14 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:22:45 wesley-ThinkPad fctsched[3157566]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:22:45 wesley-ThinkPad fctsched[3157567]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:22:45 wesley-ThinkPad fctsched[3157568]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:22:45 wesley-ThinkPad fctsched[3157570]: No token labeled "fct-ztna-token"
+Apr 14 00:23:16 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:23:16 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:23:16 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:23:45 wesley-ThinkPad fctsched[3158366]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:23:45 wesley-ThinkPad fctsched[3158367]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:23:45 wesley-ThinkPad fctsched[3158368]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:23:45 wesley-ThinkPad fctsched[3158370]: No token labeled "fct-ztna-token"
+Apr 14 00:24:18 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:24:18 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:24:18 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:24:45 wesley-ThinkPad fctsched[3159150]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:24:45 wesley-ThinkPad fctsched[3159151]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:24:45 wesley-ThinkPad fctsched[3159152]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:24:45 wesley-ThinkPad fctsched[3159154]: No token labeled "fct-ztna-token"
+Apr 14 00:25:19 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:25:19 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:25:20 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:25:45 wesley-ThinkPad fctsched[3159929]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:25:45 wesley-ThinkPad fctsched[3159930]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:25:45 wesley-ThinkPad fctsched[3159931]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:25:46 wesley-ThinkPad fctsched[3159933]: No token labeled "fct-ztna-token"
+Apr 14 00:26:21 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:26:21 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:26:21 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:26:46 wesley-ThinkPad fctsched[3160698]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:26:46 wesley-ThinkPad fctsched[3160699]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:26:46 wesley-ThinkPad fctsched[3160700]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:26:46 wesley-ThinkPad fctsched[3160702]: No token labeled "fct-ztna-token"
+Apr 14 00:27:46 wesley-ThinkPad fctsched[3160911]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:27:46 wesley-ThinkPad fctsched[3160912]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:27:46 wesley-ThinkPad fctsched[3160913]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:27:46 wesley-ThinkPad fctsched[3160915]: No token labeled "fct-ztna-token"
+Apr 14 00:28:24 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:28:24 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:28:24 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:28:46 wesley-ThinkPad fctsched[3161684]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:28:46 wesley-ThinkPad fctsched[3161685]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:28:46 wesley-ThinkPad fctsched[3161686]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:28:46 wesley-ThinkPad fctsched[3161688]: No token labeled "fct-ztna-token"
+Apr 14 00:29:26 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:29:26 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:29:26 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:29:46 wesley-ThinkPad fctsched[3162463]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:29:46 wesley-ThinkPad fctsched[3162464]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:29:46 wesley-ThinkPad fctsched[3162465]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:29:46 wesley-ThinkPad fctsched[3162467]: No token labeled "fct-ztna-token"
+Apr 14 00:30:28 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:30:28 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:30:28 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:30:46 wesley-ThinkPad fctsched[3163248]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:30:46 wesley-ThinkPad fctsched[3163249]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:30:46 wesley-ThinkPad fctsched[3163250]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:30:46 wesley-ThinkPad fctsched[3163252]: No token labeled "fct-ztna-token"
+Apr 14 00:31:29 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:31:29 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:31:29 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:31:46 wesley-ThinkPad fctsched[3164016]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:31:46 wesley-ThinkPad fctsched[3164017]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:31:46 wesley-ThinkPad fctsched[3164018]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:31:46 wesley-ThinkPad fctsched[3164020]: No token labeled "fct-ztna-token"
+Apr 14 00:32:47 wesley-ThinkPad fctsched[3164249]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:32:47 wesley-ThinkPad fctsched[3164250]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:32:47 wesley-ThinkPad fctsched[3164251]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:32:47 wesley-ThinkPad fctsched[3164253]: No token labeled "fct-ztna-token"
+Apr 14 00:33:32 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:33:32 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:33:32 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:33:47 wesley-ThinkPad fctsched[3165037]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:33:47 wesley-ThinkPad fctsched[3165038]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:33:47 wesley-ThinkPad fctsched[3165039]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:33:47 wesley-ThinkPad fctsched[3165041]: No token labeled "fct-ztna-token"
+Apr 14 00:34:34 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:34:34 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:34:34 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:34:47 wesley-ThinkPad fctsched[3165801]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:34:47 wesley-ThinkPad fctsched[3165802]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:34:47 wesley-ThinkPad fctsched[3165803]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:34:47 wesley-ThinkPad fctsched[3165805]: No token labeled "fct-ztna-token"
+Apr 14 00:35:36 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:35:36 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:35:36 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:35:47 wesley-ThinkPad fctsched[3166585]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:35:47 wesley-ThinkPad fctsched[3166586]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:35:47 wesley-ThinkPad fctsched[3166587]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:35:47 wesley-ThinkPad fctsched[3166589]: No token labeled "fct-ztna-token"
+Apr 14 00:36:47 wesley-ThinkPad fctsched[3166789]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:36:47 wesley-ThinkPad fctsched[3166790]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:36:47 wesley-ThinkPad fctsched[3166791]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:36:47 wesley-ThinkPad fctsched[3166793]: No token labeled "fct-ztna-token"
+Apr 14 00:37:38 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:37:38 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:37:38 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:37:47 wesley-ThinkPad fctsched[3167575]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:37:47 wesley-ThinkPad fctsched[3167576]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:37:47 wesley-ThinkPad fctsched[3167577]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:37:47 wesley-ThinkPad fctsched[3167579]: No token labeled "fct-ztna-token"
+Apr 14 00:38:40 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:38:40 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:38:40 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:38:48 wesley-ThinkPad fctsched[3168359]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:38:48 wesley-ThinkPad fctsched[3168360]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:38:48 wesley-ThinkPad fctsched[3168361]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:38:48 wesley-ThinkPad fctsched[3168363]: No token labeled "fct-ztna-token"
+Apr 14 00:39:42 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:39:42 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:39:42 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:39:48 wesley-ThinkPad fctsched[3169147]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:39:48 wesley-ThinkPad fctsched[3169148]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:39:48 wesley-ThinkPad fctsched[3169149]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:39:48 wesley-ThinkPad fctsched[3169151]: No token labeled "fct-ztna-token"
+Apr 14 00:40:43 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:40:43 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:40:44 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:40:48 wesley-ThinkPad fctsched[3169902]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:40:48 wesley-ThinkPad fctsched[3169903]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:40:48 wesley-ThinkPad fctsched[3169904]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:40:48 wesley-ThinkPad fctsched[3169906]: No token labeled "fct-ztna-token"
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1837] dhcp4 (wlp9s0): option dhcp_lease_time      => '3600'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1838] dhcp4 (wlp9s0): option domain_name          => 'Home'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1838] dhcp4 (wlp9s0): option domain_name_servers  => '192.168.1.254'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1838] dhcp4 (wlp9s0): option expiry               => '1713055270'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1838] dhcp4 (wlp9s0): option ip_address           => '192.168.1.66'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1838] dhcp4 (wlp9s0): option requested_broadcast_address => '1'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1838] dhcp4 (wlp9s0): option requested_domain_name => '1'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1838] dhcp4 (wlp9s0): option requested_domain_name_servers => '1'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1838] dhcp4 (wlp9s0): option requested_domain_search => '1'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1839] dhcp4 (wlp9s0): option requested_host_name  => '1'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1839] dhcp4 (wlp9s0): option requested_interface_mtu => '1'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1839] dhcp4 (wlp9s0): option requested_ms_classless_static_routes => '1'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1839] dhcp4 (wlp9s0): option requested_nis_domain => '1'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1839] dhcp4 (wlp9s0): option requested_nis_servers => '1'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1839] dhcp4 (wlp9s0): option requested_ntp_servers => '1'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1839] dhcp4 (wlp9s0): option requested_rfc3442_classless_static_routes => '1'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1839] dhcp4 (wlp9s0): option requested_root_path  => '1'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1840] dhcp4 (wlp9s0): option requested_routers    => '1'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1840] dhcp4 (wlp9s0): option requested_static_routes => '1'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1840] dhcp4 (wlp9s0): option requested_subnet_mask => '1'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1840] dhcp4 (wlp9s0): option requested_time_offset => '1'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1840] dhcp4 (wlp9s0): option requested_wpad       => '1'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1840] dhcp4 (wlp9s0): option routers              => '192.168.1.254'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1840] dhcp4 (wlp9s0): option subnet_mask          => '255.255.255.0'
+Apr 14 00:41:11 wesley-ThinkPad NetworkManager[806]: <info>  [1713051671.1840] dhcp4 (wlp9s0): state changed extended -> extended
+Apr 14 00:41:11 wesley-ThinkPad dbus-daemon[804]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=806 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Apr 14 00:41:11 wesley-ThinkPad systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr 14 00:41:11 wesley-ThinkPad dbus-daemon[804]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Apr 14 00:41:11 wesley-ThinkPad systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr 14 00:41:21 wesley-ThinkPad systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Apr 14 00:41:49 wesley-ThinkPad fctsched[3170152]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:41:49 wesley-ThinkPad fctsched[3170153]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:41:49 wesley-ThinkPad fctsched[3170154]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:41:49 wesley-ThinkPad fctsched[3170156]: No token labeled "fct-ztna-token"
+Apr 14 00:42:46 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:42:46 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:42:46 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:42:49 wesley-ThinkPad fctsched[3170897]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:42:49 wesley-ThinkPad fctsched[3170898]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:42:49 wesley-ThinkPad fctsched[3170899]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:42:49 wesley-ThinkPad fctsched[3170901]: No token labeled "fct-ztna-token"
+Apr 14 00:43:32 wesley-ThinkPad gnome-shell[4273]: st_widget_get_theme_node called on the widget [0x560accd03c60 StWidget] which is not in the stage.
+Apr 14 00:43:34 wesley-ThinkPad rtkit-daemon[2104]: Supervising 14 threads of 2 processes of 2 users.
+Apr 14 00:43:34 wesley-ThinkPad rtkit-daemon[2104]: Successfully made thread 3171004 of process 3942 owned by '1000' RT at priority 5.
+Apr 14 00:43:34 wesley-ThinkPad rtkit-daemon[2104]: Supervising 15 threads of 2 processes of 2 users.
+Apr 14 00:43:48 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:43:48 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:43:48 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:43:49 wesley-ThinkPad fctsched[3171714]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:43:49 wesley-ThinkPad fctsched[3171715]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:43:49 wesley-ThinkPad fctsched[3171716]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:43:49 wesley-ThinkPad fctsched[3171718]: No token labeled "fct-ztna-token"
+Apr 14 00:44:49 wesley-ThinkPad fctsched[3172139]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:44:49 wesley-ThinkPad fctsched[3172140]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:44:49 wesley-ThinkPad fctsched[3172141]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:44:49 wesley-ThinkPad fctsched[3172143]: No token labeled "fct-ztna-token"
+Apr 14 00:44:49 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:44:49 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:44:50 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:45:49 wesley-ThinkPad fctsched[3172579]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:45:49 wesley-ThinkPad fctsched[3172580]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:45:49 wesley-ThinkPad fctsched[3172581]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:45:50 wesley-ThinkPad fctsched[3172583]: No token labeled "fct-ztna-token"
+Apr 14 00:46:50 wesley-ThinkPad fctsched[3172797]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:46:50 wesley-ThinkPad fctsched[3172798]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:46:50 wesley-ThinkPad fctsched[3172799]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:46:50 wesley-ThinkPad fctsched[3172801]: No token labeled "fct-ztna-token"
+Apr 14 00:46:52 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:46:52 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:46:52 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:47:50 wesley-ThinkPad fctsched[3173589]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:47:50 wesley-ThinkPad fctsched[3173590]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:47:50 wesley-ThinkPad fctsched[3173591]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:47:50 wesley-ThinkPad fctsched[3173593]: No token labeled "fct-ztna-token"
+Apr 14 00:47:54 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:47:54 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:47:54 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:48:50 wesley-ThinkPad fctsched[3174372]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:48:50 wesley-ThinkPad fctsched[3174373]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:48:50 wesley-ThinkPad fctsched[3174374]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:48:50 wesley-ThinkPad fctsched[3174376]: No token labeled "fct-ztna-token"
+Apr 14 00:48:56 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:48:56 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:48:56 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:49:50 wesley-ThinkPad fctsched[3175135]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:49:50 wesley-ThinkPad fctsched[3175136]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:49:50 wesley-ThinkPad fctsched[3175137]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:49:50 wesley-ThinkPad fctsched[3175139]: No token labeled "fct-ztna-token"
+Apr 14 00:49:57 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:49:57 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:49:58 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:50:50 wesley-ThinkPad fctsched[3175913]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:50:50 wesley-ThinkPad fctsched[3175914]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:50:50 wesley-ThinkPad fctsched[3175915]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:50:50 wesley-ThinkPad fctsched[3175917]: No token labeled "fct-ztna-token"
+Apr 14 00:50:59 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:50:59 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:50:59 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:51:50 wesley-ThinkPad fctsched[3176689]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:51:50 wesley-ThinkPad fctsched[3176690]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:51:50 wesley-ThinkPad fctsched[3176691]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:51:51 wesley-ThinkPad fctsched[3176693]: No token labeled "fct-ztna-token"
+Apr 14 00:52:51 wesley-ThinkPad fctsched[3176915]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:52:51 wesley-ThinkPad fctsched[3176916]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:52:51 wesley-ThinkPad fctsched[3176917]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:52:51 wesley-ThinkPad fctsched[3176919]: No token labeled "fct-ztna-token"
+Apr 14 00:53:02 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:53:02 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:53:02 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:53:51 wesley-ThinkPad fctsched[3177719]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:53:51 wesley-ThinkPad fctsched[3177720]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:53:51 wesley-ThinkPad fctsched[3177721]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:53:51 wesley-ThinkPad fctsched[3177723]: No token labeled "fct-ztna-token"
+Apr 14 00:54:04 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:54:04 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:54:04 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:54:51 wesley-ThinkPad fctsched[3178484]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:54:51 wesley-ThinkPad fctsched[3178485]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:54:51 wesley-ThinkPad fctsched[3178486]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:54:51 wesley-ThinkPad fctsched[3178488]: No token labeled "fct-ztna-token"
+Apr 14 00:55:06 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:55:06 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:55:06 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:55:51 wesley-ThinkPad fctsched[3179277]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:55:51 wesley-ThinkPad fctsched[3179278]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:55:51 wesley-ThinkPad fctsched[3179279]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:55:51 wesley-ThinkPad fctsched[3179281]: No token labeled "fct-ztna-token"
+Apr 14 00:56:07 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:56:07 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:56:07 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:56:51 wesley-ThinkPad fctsched[3180050]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:56:51 wesley-ThinkPad fctsched[3180051]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:56:51 wesley-ThinkPad fctsched[3180052]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:56:51 wesley-ThinkPad fctsched[3180054]: No token labeled "fct-ztna-token"
+Apr 14 00:57:51 wesley-ThinkPad fctsched[3180274]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:57:51 wesley-ThinkPad fctsched[3180275]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:57:51 wesley-ThinkPad fctsched[3180276]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:57:52 wesley-ThinkPad fctsched[3180278]: No token labeled "fct-ztna-token"
+Apr 14 00:58:10 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:58:10 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:58:10 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:58:52 wesley-ThinkPad fctsched[3181040]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:58:52 wesley-ThinkPad fctsched[3181041]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:58:52 wesley-ThinkPad fctsched[3181042]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:58:52 wesley-ThinkPad fctsched[3181044]: No token labeled "fct-ztna-token"
+Apr 14 00:59:12 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 00:59:12 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 00:59:12 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 00:59:52 wesley-ThinkPad fctsched[3181813]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:59:52 wesley-ThinkPad fctsched[3181814]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:59:52 wesley-ThinkPad fctsched[3181815]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 00:59:52 wesley-ThinkPad fctsched[3181817]: No token labeled "fct-ztna-token"
+Apr 14 01:00:14 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 01:00:14 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 01:00:14 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 01:00:52 wesley-ThinkPad fctsched[3182590]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 01:00:52 wesley-ThinkPad fctsched[3182591]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 01:00:52 wesley-ThinkPad fctsched[3182592]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 01:00:52 wesley-ThinkPad fctsched[3182594]: No token labeled "fct-ztna-token"
+Apr 14 01:01:15 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 01:01:15 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 01:01:15 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 01:01:52 wesley-ThinkPad fctsched[3183357]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 01:01:52 wesley-ThinkPad fctsched[3183358]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 01:01:52 wesley-ThinkPad fctsched[3183359]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 01:01:52 wesley-ThinkPad fctsched[3183361]: No token labeled "fct-ztna-token"
+Apr 14 01:02:52 wesley-ThinkPad fctsched[3183578]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 01:02:52 wesley-ThinkPad fctsched[3183579]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 01:02:52 wesley-ThinkPad fctsched[3183580]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 01:02:52 wesley-ThinkPad fctsched[3183582]: No token labeled "fct-ztna-token"
+Apr 14 01:03:18 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 01:03:18 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 01:03:18 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 01:03:52 wesley-ThinkPad fctsched[3184358]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 01:03:52 wesley-ThinkPad fctsched[3184359]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 01:03:52 wesley-ThinkPad fctsched[3184360]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 01:03:53 wesley-ThinkPad fctsched[3184362]: No token labeled "fct-ztna-token"
+Apr 14 01:04:20 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 01:04:20 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 01:04:20 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 01:04:53 wesley-ThinkPad fctsched[3185144]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 01:04:53 wesley-ThinkPad fctsched[3185145]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 01:04:53 wesley-ThinkPad fctsched[3185146]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 01:04:53 wesley-ThinkPad fctsched[3185148]: No token labeled "fct-ztna-token"
+Apr 14 01:05:21 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
+Apr 14 01:05:21 wesley-ThinkPad systemd[1]: snap.upower.upowerd.service: Two services allocated for the same bus name org.freedesktop.UPower, refusing operation.
+Apr 14 01:05:22 wesley-ThinkPad systemd[1]: /lib/systemd/system/ubuntu-advantage-desktop-daemon.service:14: Unknown key name 'ProtectProc' in section 'Service', ignoring.
+Apr 14 01:05:53 wesley-ThinkPad fctsched[3185908]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 01:05:53 wesley-ThinkPad fctsched[3185909]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 01:05:53 wesley-ThinkPad fctsched[3185910]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 01:05:53 wesley-ThinkPad fctsched[3185912]: No token labeled "fct-ztna-token"
+Apr 14 01:06:53 wesley-ThinkPad fctsched[3186121]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 01:06:53 wesley-ThinkPad fctsched[3186122]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 01:06:53 wesley-ThinkPad fctsched[3186123]: certutil: could not find certificate named "FortiClient ZTNA": SEC_ERROR_INVALID_ARGS: security library: invalid arguments.
+Apr 14 01:06:53 wesley-ThinkPad fctsched[3186125]: No token labeled "fct-ztna-token"
+Apr 14 01:07:24 wesley-ThinkPad systemd[1]: Failed to put bus name to hashmap: File exists
