@@ -1,2 +1,0 @@
-cat: ola: No such file or directory
-cat: adeus: No such file or directory
