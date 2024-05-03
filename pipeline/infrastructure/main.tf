@@ -14,8 +14,9 @@ Resources' Prefixes:
 #   handler       = "function.lambda_handler"
 #   runtime       = "python3.8"
 #   source_path   = "${path.module}/code/function.py"
-#   attach_policy = true
-#   policy        = aws_iam_policy.lambda_policy.arn
+#   # attach_policy = true
+#   # policy        = aws_iam_policy.lambda_policy.arn
+#   role_name = aws_iam_role.lambda_role.name
 
 #   environment_variables = {
 #     Ing_folder = var.ING_lambda_folder_names[count.index]
@@ -25,14 +26,49 @@ Resources' Prefixes:
 #   ephemeral_storage_size = 2048
 #   timeout                = 180
 
+#   # Specify the dependency on the creation and attachment of role and policy
+#   depends_on = [
+#     aws_iam_role_policy_attachment.role_policy_attachment_lambda
+#   ]
+
 # }
 
-# data "archive_file" "python_lambda_package" {
-#   type = "zip"
-#   source_file = "${path.module}/code/function.py"
-#   output_path = "${path.module}/code/function.zip"
-# }
+data "archive_file" "ING_lambda_package" {
+  type        = "zip"
+  source_file = "${path.module}/code/function.py"
+  output_path = "${path.module}/code/function.zip"
+}
 
-resource "aws_s3_bucket" "ING_bucket" {
+resource "aws_lambda_function" "ING_lambda_function" {
+  count         = length(var.ING_lambda_folder_names) # calculates the number of folders that contain the objects to ingest
+  function_name = "${local.prefix}_lambda_ingestion_${var.ING_lambda_folder_names[count.index]}"
+  role          = aws_iam_role.lambda_role.arn
+  runtime       = "python3.8"
+
+  filename         = data.archive_file.ING_lambda_package.output_path # Path to your ZIP file containing the function code
+  source_code_hash = data.archive_file.ING_lambda_package.output_base64sha256
+  handler          = "function.lambda_handler"
+
+  environment {
+    variables = {
+      ING_FOLDER          = var.ING_lambda_folder_names[count.index]
+      SOURCE_BUCKET_NAME  = var.ING_source_bucket["bucket_name"]
+      STORAGE_BUCKET_NAME = aws_s3_bucket.GLB_storage_bucket.bucket
+    }
+  }
+
+  memory_size = 256
+  timeout     = 180
+  #ephemeral_storage_size = 2048
+
+  # Specify the dependency on the creation and attachment of role and policy
+  depends_on = [
+    aws_iam_role_policy_attachment.role_policy_attachment_lambda
+  ]
+
+}
+
+
+resource "aws_s3_bucket" "GLB_storage_bucket" {
   bucket = "${var.GLB_project_name}-${var.GLB_identifier}"
 }

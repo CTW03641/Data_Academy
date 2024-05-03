@@ -17,7 +17,11 @@ variable "GLB_project_name" {
 }
 
 variable "ING_source_bucket" { # Variable that defines the S3 bucket that serves as Source
-  default     = "da7-source-bucket"
+  type = map(string)
+  default = {
+    "bucket_name" = "da7-source-bucket"
+    "bucket_arn"  = "arn:aws:s3:::da7-source-bucket"
+  }
   description = "S3 bucket that serves as the Data Source"
 }
 

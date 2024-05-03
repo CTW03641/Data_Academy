@@ -27,25 +27,29 @@ from botocore.exceptions import NoCredentialsError
 #     open(f"/tmp/data_{month}_{year}.parquet", 'wb').write(data)
 
 
-# def lambda_handler(event, context):
-#     s3_bucket = os.getenv("S3_bucket", "data_academy_error")
-#     months = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"]
-#     if 'year' in event.keys():
-#         year = event["year"]
-#         if 'month' in event.keys() and event['month'] in months:
-#             month = event["month"]
-#             download_file(month, year)
-#             upload_to_aws(f"/tmp/data_{month}_{year}.parquet", s3_bucket, f'data_{month}_{year}.parquet')
-#         else:
-#             for count, month in enumerate(months):
-#                 download_file(month, year)
-#                 upload_to_aws(f"/tmp/data_{month}_{year}.parquet", s3_bucket, f'data_{month}_{year}.parquet')
+def lambda_handler(event, context):
+    # s3_bucket = os.getenv("S3_bucket", "data_academy_error")
+    # months = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"]
+    # if 'year' in event.keys():
+    #     year = event["year"]
+    #     if 'month' in event.keys() and event['month'] in months:
+    #         month = event["month"]
+    #         download_file(month, year)
+    #         upload_to_aws(f"/tmp/data_{month}_{year}.parquet", s3_bucket, f'data_{month}_{year}.parquet')
+    #     else:
+    #         for count, month in enumerate(months):
+    #             download_file(month, year)
+    #             upload_to_aws(f"/tmp/data_{month}_{year}.parquet", s3_bucket, f'data_{month}_{year}.parquet')
 
-#     else:
-#         raise ValueError("Year missing")
+    # else:
+    #     raise ValueError("Year missing")
 
-#     return {
-#         'message': "Upload to S3 complete"
-#     }
+    # return {
+    #     'message': "Upload to S3 complete"
+    # }
 
-print("Hello World")
+    print("Hello World")
+
+    return {
+        'message': "Success"
+    }
