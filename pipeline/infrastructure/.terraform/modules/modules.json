@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"ING_lambda_function","Source":"registry.terraform.io/terraform-aws-modules/lambda/aws","Version":"7.2.5","Dir":".terraform/modules/ING_lambda_function"}]}
