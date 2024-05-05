@@ -42,8 +42,9 @@ data "archive_file" "ING_lambda_package" {
 resource "aws_lambda_function" "ING_lambda_function" {
   count         = length(var.ING_lambda_folder_names) # calculates the number of folders that contain the objects to ingest
   function_name = "${local.prefix}_lambda_ingestion_${var.ING_lambda_folder_names[count.index]}"
-  role          = aws_iam_role.lambda_role.arn
-  runtime       = "python3.8"
+  #role          = aws_iam_role.lambda_role[count.index].arn
+  role    = aws_iam_role.lambda_role.arn
+  runtime = "python3.8"
 
   filename         = data.archive_file.ING_lambda_package.output_path # Path to your ZIP file containing the function code
   source_code_hash = data.archive_file.ING_lambda_package.output_base64sha256
@@ -57,8 +58,8 @@ resource "aws_lambda_function" "ING_lambda_function" {
     }
   }
 
-  memory_size = 256
-  timeout     = 180
+  memory_size = 2048 #256
+  timeout     = 300 #180
   #ephemeral_storage_size = 2048
 
   # Specify the dependency on the creation and attachment of role and policy

@@ -1,55 +1,30 @@
 import os
-import urllib.request
 
 import boto3
 from botocore.exceptions import NoCredentialsError
 
-
-# def upload_to_aws(local_file, bucket, s3_file):
-#     s3 = boto3.client('s3')
-
-#     try:
-#         s3.upload_file(local_file, bucket, s3_file)
-#         print("Upload Successful")
-#         return True
-#     except FileNotFoundError:
-#         print("The file was not found")
-#         return False
-#     except NoCredentialsError:
-#         print("Credentials not available")
-#         return False
-
-
-# def download_file(month: str, year: str) -> str:
-#     url = f"https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_{year}-{month}.parquet"
-#     with urllib.request.urlopen(url) as f:
-#         data = f.read()
-#     open(f"/tmp/data_{month}_{year}.parquet", 'wb').write(data)
-
-
 def lambda_handler(event, context):
-    # s3_bucket = os.getenv("S3_bucket", "data_academy_error")
-    # months = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"]
-    # if 'year' in event.keys():
-    #     year = event["year"]
-    #     if 'month' in event.keys() and event['month'] in months:
-    #         month = event["month"]
-    #         download_file(month, year)
-    #         upload_to_aws(f"/tmp/data_{month}_{year}.parquet", s3_bucket, f'data_{month}_{year}.parquet')
-    #     else:
-    #         for count, month in enumerate(months):
-    #             download_file(month, year)
-    #             upload_to_aws(f"/tmp/data_{month}_{year}.parquet", s3_bucket, f'data_{month}_{year}.parquet')
+    source_bucket_name = os.environ['SOURCE_BUCKET_NAME']
+    destination_bucket_name = os.environ['STORAGE_BUCKET_NAME']
+    folder_name = os.environ['ING_FOLDER'] + '/'
 
-    # else:
-    #     raise ValueError("Year missing")
+    s3 = boto3.client('s3')
 
-    # return {
-    #     'message': "Upload to S3 complete"
-    # }
+    # List objects in the source folder
+    response = s3.list_objects_v2(Bucket=source_bucket_name, Prefix=folder_name) # For example, It is going to list all objects with Prefix 'taxi/' (including the name of the folder)
+                                                                                 # The output is a JSON file where the objects are in 'Contents' inside 'Key'
 
-    print("Hello World")
+    # Copy each object to the destination bucket
+    for obj in response.get('Contents', []): # The output is a JSON where the objects are in 'Contents' inside 'Key'
+        key = obj['Key']
+
+        # Skip if the object is the folder itself
+        if key == folder_name:
+            continue
+        copy_source = {'Bucket': source_bucket_name, 'Key': key} #The name of the source bucket, key name of the source object, and optional version ID of the source object
+        s3.copy_object(CopySource=copy_source, Bucket=destination_bucket_name, Key=key) # Copy key to destination bucket inside a predefined folder
 
     return {
-        'message': "Success"
+        'statusCode': 200,
+        'body': 'Ingestion Successful'
     }
