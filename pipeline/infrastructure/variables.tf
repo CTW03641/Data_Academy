@@ -27,7 +27,7 @@ variable "ING_source_bucket" { # Variable that defines the S3 bucket that serves
 
 variable "ING_lambda_folder_names" { # Variable that defines the folders inside the bucket that the lambda should ingest
   type        = list(string)         # Specifies that a variable is expected to be a list, and the elements of that list are strings
-  default     = ["taxi", "bicycles"] # Add /
+  default     = ["taxi", "citibike"] # Add /
   description = "Folders inside the bucket that the lambda should ingest"
 }
 

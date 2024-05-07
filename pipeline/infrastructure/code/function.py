@@ -1,7 +1,6 @@
 import os
 
 import boto3
-from botocore.exceptions import NoCredentialsError
 
 def lambda_handler(event, context):
     source_bucket_name = os.environ['SOURCE_BUCKET_NAME']
