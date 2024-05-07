@@ -34,3 +34,5 @@ variable "ING_lambda_folder_names" { # Variable that defines the folders inside 
 locals { # This block is used to define local values, which are computed values derived from the input variables
   prefix = "${var.GLB_project_name}_${var.GLB_identifier}"
 }
+
+data "aws_caller_identity" "current" {}
