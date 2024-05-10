@@ -1,0 +1,91 @@
+version: 2
+ 
+models:
+  - name: fct_trips
+    description: This fact table provides information about taxi and bike trips that occurred in NYC in 2023. It includes the starting and ending geographical and time information, the number of passengers, the total amount, the type of ride, the distance traveled, the duration of the trip, the tip amount and the payment method.
+    docs:
+      show: true
+    config:
+      materialized: table
+      contract:
+        enforced: true
+    columns:
+      - name: trip_id
+        data_type: integer
+        description: Identifier of the trip
+        constraints:
+          - type: not_null
+          - type: unique
+          - type: primary_key
+        tests:
+          - not_null
+          - unique
+      - name: start_location_id
+        data_type: integer
+        description: ID of the starting location
+        constraints:
+          - type: not_null
+          - type: foreign_key
+            expression: ctw03202_test.dim_location (location_id)
+      - name: end_location_id
+        data_type: integer
+        description: ID of the ending location
+        constraints:
+          - type: not_null
+          - type: foreign_key
+            expression: ctw03202_test.dim_location (location_id)
+      - name: start_date_id
+        data_type: date
+        description: Trip start date
+        constraints:
+          - type: not_null
+          - type: foreign_key
+            expression: ctw03202_test.dim_date (date)
+      - name: end_date_id
+        data_type: date
+        description: Trip end date
+        constraints:
+          - type: not_null
+          - type: foreign_key
+            expression: ctw03202_test.dim_date (date)
+      - name: start_time_id
+        data_type: time
+        description: Trip start time
+        constraints:
+          - type: not_null
+          - type: foreign_key
+            expression: ctw03202_test.dim_time (time)
+      - name: end_time_id
+        data_type: time
+        description: Trip end time
+        constraints:
+          - type: not_null
+          - type: foreign_key
+            expression: ctw03202_test.dim_time (time)
+      - name: type_description
+        data_type: varchar
+        description: Type of the trip (eletric_bike, classic_bike or taxi)
+        tests:
+          - accepted_values:
+              values: ['classic_bike', 'electric_bike', 'taxi']
+      - name: payment_description
+        data_type: varchar
+        description: Method of the payment
+        tests:
+          - accepted_values:
+              values: ['Credit card', 'Cash', 'No charge', 'Dispute', 'Unknown', 'Voided trip', 'EMPTY']
+      - name: distance_km
+        data_type: float8
+        description: Distance of the trip in km
+      - name: duration_sec
+        data_type: integer
+        description: Duration of the trip in seconds
+      - name: passengers_total
+        data_type: integer
+        description: Total of passengers
+      - name: tip_amount_dol
+        data_type: float8
+        description: Tip amount in dollars
+      - name: total_amount_dol
+        data_type: float4
+        description: Total cost of the trip

@@ -47,11 +47,18 @@ def update_dynamo_timestamp(dynamodb_client, dynamodb_table_name, dyn_folder_nam
     
 
 def lambda_handler(event, context):
-    source_bucket_name = os.environ['SOURCE_BUCKET_NAME']
-    destination_bucket_name = os.environ['STORAGE_BUCKET_NAME']
-    folder_name = os.environ['ING_FOLDER'] + '/'
-    dynamodb_table_name = os.environ['DYNAMO_TABLE_NAME']
-    dyn_folder_name = os.environ['ING_FOLDER']
+    # source_bucket_name = os.environ['SOURCE_BUCKET_NAME']
+    # destination_bucket_name = os.environ['STORAGE_BUCKET_NAME']
+    # folder_name = os.environ['ING_FOLDER'] + '/'
+    # dynamodb_table_name = os.environ['DYNAMO_TABLE_NAME']
+    # dyn_folder_name = os.environ['ING_FOLDER']
+
+    source_bucket_name = event.get('SOURCE_BUCKET_NAME')
+    destination_bucket_name = event.get('STORAGE_BUCKET_NAME')
+    folder_name = event.get('ING_FOLDER') + '/'
+    dynamodb_table_name = event.get('DYNAMO_TABLE_NAME')
+    dyn_folder_name = event.get('ING_FOLDER')
+
 
     s3 = boto3.client('s3')
     dynamodb = boto3.client('dynamodb')

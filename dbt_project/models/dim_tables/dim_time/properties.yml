@@ -1,0 +1,27 @@
+version: 2
+ 
+models:
+ 
+- name: dim_time
+  config:
+    materialized: table
+    contract:
+      enforced: true
+ 
+  description: >
+    The dim_time table contains attributes related to time, such as hours, minutes and seconds.
+ 
+  docs:
+    show: true
+ 
+  columns:
+    - name: time
+      data_type: time
+      constraints:
+        - type: primary_key
+    - name: hour
+      data_type: int
+    - name: minutes
+      data_type: int
+    - name: seconds
+      data_type: int
