@@ -60,13 +60,6 @@ def lambda_handler(event, context):
     dyn_folder_name = event.get('ING_FOLDER')
 
 
-    # source_bucket_name = event.get('SOURCE_BUCKET_NAME')
-    # destination_bucket_name = event.get('STORAGE_BUCKET_NAME')
-    # folder_name = event.get('ING_FOLDER') + '/'
-    # dynamodb_table_name = event.get('DYNAMO_TABLE_NAME')
-    # dyn_folder_name = event.get('ING_FOLDER')
-
-
     s3 = boto3.client('s3')
     dynamodb = boto3.client('dynamodb')
 
