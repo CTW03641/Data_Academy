@@ -1,0 +1,48 @@
+version: 2
+
+models:
+  - name: dim_location
+    config:
+      materialized: table
+      contract:
+        enforced: true
+
+    description: The dim_location table contains attributes related to location, such as station_id, borough, and zone.
+
+    columns:
+      - name: location_id
+        description: Location ID
+        data_type: integer
+        constraints:
+          - type: primary_key
+        tests:
+          - unique
+          - not_null
+
+      - name: station_id
+        description: Station ID
+        data_type: varchar(50)
+
+      - name: borough
+        description: Borough
+        data_type: varchar(50)
+        
+      - name: zone
+        description: Zone
+        data_type: varchar(50)
+
+      - name: object_id
+        description: Object ID
+        data_type: integer
+
+      - name: shape_area
+        description: Shape Area
+        data_type: float
+
+      - name: shape_leng
+        description: Shape Length
+        data_type: float
+
+      - name: geometry
+        description: Geometry
+        data_type: text

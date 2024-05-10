@@ -137,7 +137,7 @@ resource "aws_iam_role" "glue_role" {
 resource "aws_iam_policy" "glue_policy" {
   name = "GluePolicy"
   policy = jsonencode({
-    Version   = "2012-10-17"
+    Version = "2012-10-17"
     Statement = [
       {
         Effect = "Allow" # Reading permissions for Source bucket
@@ -145,10 +145,10 @@ resource "aws_iam_policy" "glue_policy" {
           "s3:*"
         ]
         Resource = [
-          "${aws_s3_bucket.GLB_storage_bucket.arn}",  # Permissions on the bucket itself to list its objects
+          "${aws_s3_bucket.GLB_storage_bucket.arn}",   # Permissions on the bucket itself to list its objects
           "${aws_s3_bucket.GLB_storage_bucket.arn}/*", # Permission on its objects to copy them
-          "${aws_s3_bucket.TRF_storage_bucket.arn}",  # Permissions on the bucket itself to list its objects
-          "${aws_s3_bucket.TRF_storage_bucket.arn}/*" # Permission on its objects to copy them
+          "${aws_s3_bucket.TRF_storage_bucket.arn}",   # Permissions on the bucket itself to list its objects
+          "${aws_s3_bucket.TRF_storage_bucket.arn}/*"  # Permission on its objects to copy them
         ]
       },
       {

@@ -1,0 +1,24 @@
+
+#-------------------------------------------------------------------------
+# This file allows the DBT to know how to connect to the database. 
+#-------------------------------------------------------------------------
+
+# Set up a RDS profile
+data_academy: 
+  # --------------
+  # Default Target
+  # --------------
+  # Must be one of the targets defined in the outputs
+  target: dev # this is the default target
+  
+  outputs:
+    dev:
+      # Update the properties below
+      type: postgres
+      host: da7-data-warehouse.cre2iy7kuiri.eu-central-1.rds.amazonaws.com
+      user: ctw03641
+      password: 50c1a63e193649ffb3988ef308d7d05b
+      port: 5432
+      dbname: playground
+      schema: ctw03641_core
+      threads: 2

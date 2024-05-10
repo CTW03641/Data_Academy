@@ -1,0 +1,36 @@
+version: 2
+ 
+models:
+ 
+- name: dim_date
+  config:
+    materialized: table
+    contract:
+      enforced: true
+ 
+  description: >
+    The dim_date table, often referred to as a date dimension or calendar table, is a special type of table commonly used in data warehousing and analytics. It contains a comprehensive list of dates along with various attributes associated with each date, such as year, month, day of week, day of month, and so on. This table only shows the dates between 2023-01-01 and 2024-01-01.
+ 
+  docs:
+    show: true
+ 
+  columns:
+    - name: date
+      data_type: date
+      constraints:
+        - type: primary_key
+    - name: day
+      data_type: int
+    - name: month
+      data_type: int
+    - name: month_description
+      data_type: varchar(20)
+    - name: year
+      data_type: int
+    - name: week_day
+      data_type: varchar(20)
+    - name: week_number
+      data_type: int
+    - name: season
+      data_type: varchar(20)
+

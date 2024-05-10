@@ -1,0 +1,29 @@
+version: 2
+
+seeds:
+  - name: t_taxi_zone
+
+    description: axi Zones roughly based on NYC Department of City Planning's Neighborhood Tabulation Areas (NTAs) and are meant to approximate neighborhoods, so you can see which neighborhood a passenger was picked up in, and which neighborhood they were dropped off in. Includes associated service_zone (EWR, Boro Zone, Yellow Zone).
+  
+    columns:
+      - name: location_id
+        description: Identifier of the zone
+
+      - name: borough
+        description: Name of the borough
+
+      - name: zone
+        description: Name of the zone
+
+      - name: service_zone
+        description: Name of the service zone
+
+    config:
+      contract:
+        enforced: true
+      unique_key: location_id  # Specify the primary key constraint
+      column_types:
+        terminal_id: integer
+        borough: varchar(50)
+        zone: varchar(50)
+        service_zone: varchar(50)

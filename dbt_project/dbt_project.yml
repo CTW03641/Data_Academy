@@ -1,0 +1,52 @@
+#-------------------------------------------------------------------------
+# Every dbt project needs a dbt_project.yml file, this is how DBT knows where is the DBT project and how to operate it. 
+# Configuring the dbt_project.yml file is essential for defining the settings and configurations for your dbt project. Here are some reasons why configuring this file is necessary:
+
+# Project Settings: The dbt_project.yml file allows you to specify various project-level settings, such as the project name, description, and version. This information helps identify and manage your dbt project.
+# Data Warehouse Connection: You can define the connection details for your data warehouse in the dbt_project.yml file. This includes specifying the type of data warehouse, credentials, database name, warehouse name, and other relevant parameters. These settings are crucial for dbt to connect to your data warehouse and execute queries.
+# Source and Target Directories: You can specify the directories where dbt should look for source data (models, seeds, snapshots) and where it should write compiled artifacts (target). Configuring these directories ensures that dbt can find your project's resources and store the compiled SQL files and other artifacts correctly.
+# Seeds Configuration: If your project includes seed data (static data that you want to load into your data warehouse), you can define the configuration for seeds in the dbt_project.yml file. This includes specifying the directory where seed files are located and any additional configurations related to seeding.
+# Schema and Model Configuration: You can define default configurations for schemas and models in the dbt_project.yml file. This includes settings such as default materialization method, default schema name, and additional model configurations. These settings provide consistency and simplify model definitions across your project.
+# Documentation: You can enable documentation generation and specify documentation settings in the dbt_project.yml file. This includes options for generating documentation, specifying the output directory for documentation files, and customizing documentation settings.
+#-------------------------------------------------------------------------
+
+# Name your project! Project names should contain only lowercase characters
+# and underscores. A good package name should reflect your organization's
+# name or the intended use of these models
+name: DA_PROJECT
+version: '1.0.0'
+config-version: 2
+
+# This setting configures which "profile" dbt uses for this project.
+# Make sure that the profile_name is the same as set on the profiles.yml
+profile: data_academy
+
+# These configurations specify where dbt should look for different types of files.
+# The `model-paths` config, for example, states that models in this project can be
+# found in the "models/" directory. You won't need to change these!
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+#You don't need to change these fields
+target-path: "target"  # directory which will store compiled SQL files
+clean-targets:         # directories to be removed by `dbt clean`
+  - "target"
+
+
+# Configuring models
+# Full documentation: https://docs.getdbt.com/docs/configuring-models
+
+# Add here the documention properties for the models and seeds
+models:
+  +persist_docs:
+      relation: true
+      columns: true
+
+seeds:
+  +persist_docs:
+    relation: true
+    columns: true
