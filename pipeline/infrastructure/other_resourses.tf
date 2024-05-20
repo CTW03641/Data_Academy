@@ -173,3 +173,61 @@ resource "aws_iam_role_policy_attachment" "glue_policy_attachment" {
   role       = aws_iam_role.glue_role.name
   policy_arn = aws_iam_policy.glue_policy.arn
 }
+
+
+
+/*STEP FUNCTION ROLE*/
+
+# resource "aws_iam_role" "step_function_role" {
+#   name = "${local.prefix}_step_function_role"
+#   assume_role_policy = <<EOF
+# {
+#   "Version": "2012-10-17",
+#   "Statement": [
+#     {
+#       "Effect": "Allow",
+#       "Principal": {
+#         "Service": "states.amazonaws.com"
+#       },
+#       "Action": "sts:AssumeRole"
+#     }
+#   ]
+# }
+# EOF
+# }
+
+# resource "aws_iam_policy" "step_function_policy" {
+#   name        = "step_function_policy"
+#   description = "Policy to allow Step Functions to invoke Lambdas and Glue jobs"
+
+#   policy = jsonencode({
+#     Version   = "2012-10-17",
+#     Statement = [
+#       {
+#         Effect   = "Allow",
+#         Action   = [
+#           "lambda:InvokeFunction",
+#         ],
+#         Resource = "${aws_lambda_function.ING_lambda_function[*].arn}",
+#       },
+#       {
+#         Effect   = "Allow",
+#         Action   = [
+#           "glue:StartJobRun",
+#         ],
+#         Resource = [
+#           "${aws_glue_job.TRF_glue_job_taxi.arn}",
+#           "${aws_glue_job.TRF_glue_job_citibike_stream.arn}",
+#           "${aws_glue_job.TRF_glue_job_taxi_load.arn}",
+#           "${aws_glue_job.TRF_glue_job_citibike_load.arn}",
+#         ]
+#       },
+#     ],
+#   })
+# }
+
+
+# resource "aws_iam_role_policy_attachment" "step_function_policy_attachment" {
+#   policy_arn = aws_iam_policy.step_function_policy.arn
+#   role       = aws_iam_role.step_function_role.name
+# }

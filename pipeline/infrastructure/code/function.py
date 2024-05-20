@@ -77,3 +77,11 @@ def lambda_handler(event, context):
         'statusCode': 200,
         'body': 'Ingestion Successful'
     }
+
+#### EVENT ####
+# {
+#   "SOURCE_BUCKET_NAME": "da7-source-bucket",
+#   "STORAGE_BUCKET_NAME": "da7-qxz50zr",
+#   "ING_FOLDER": "taxi",
+#   "DYNAMO_TABLE_NAME": "da7_qxz50zr_dynamo_ingestion_timestamp",
+# }
